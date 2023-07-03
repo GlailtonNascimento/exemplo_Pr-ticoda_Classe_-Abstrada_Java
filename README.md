@@ -5,7 +5,6 @@
 
 // codigo com erro!
 
-
  package eletrodomestico;
 
 public abstract class Eletrodomestico {
