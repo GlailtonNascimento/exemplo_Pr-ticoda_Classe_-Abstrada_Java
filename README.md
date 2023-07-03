@@ -1,4 +1,4 @@
-# exemplo_Pratico_da_Classe_-Abstrada_Java
+ //exemplo_Pratico_da_Classe_-Abstrada_Java
  //ABSTRAÇÃO(JAVA)........implementado em Java, a classe abstrata Eletrodoméstico a qual será instanciada por outra classe filha (classe estendida):
 
  // estou com erro no codigo ate momento nao conseguir entender .
@@ -6,12 +6,10 @@
 // codigo com erro!
 
 
- package eletrodomestico;
-
+package eletrodomestico;
 public abstract class Eletrodomestico {
 	private boolean ligado ;
 	private Integer voltagem;
-	
 	
 	public abstract void ligar();
 	public abstract void desligar();
@@ -49,10 +47,10 @@ public class aplicacaoAbstrada {
 		//Instancia a classe Radio
 				Radio radio1 = new Radio(110);
 
-		       //*
+		       /*
 		        //* chamando os métodos abstratos implementados
 		        //* dentro de cada classe ( Radio)
-		        
+		        */
 		     
 		        radio1.ligar();
 		        System.out.print("e o Rádio está ");
