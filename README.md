@@ -1,6 +1,5 @@
-# exemplo_Pratico_da_Classe_-Abstrada_Java
- //ABSTRAÇÃO(JAVA)........implementado em Java, a classe abstrata Eletrodoméstico a qual será instanciada por outra classe filha (classe estendida):
-
+//exemplo_Pratico_da_Classe_-Abstrada_Java
+ //ABSTRAÇÃO(JAVA)......
  // estou com erro no codigo ate momento nao conseguir entender .
 
 // codigo com erro!
@@ -18,7 +17,7 @@ public abstract class Eletrodomestico {
 	
 	  public Eletrodomestico(boolean ligado, Integer voltagem) {
 	        this.setLigado(ligado);
-	        this.setVoltagem (voltagem); // essa linha no esta retonando erro
+	        this.setVoltagem(voltagem); // essa linha no código retonando erro
 	 }
 	
 	 public int getDesligado() {
