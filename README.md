@@ -4,6 +4,8 @@
  // estou com erro no codigo ate momento nao conseguir entender .
 
 // codigo com erro!
+
+
  package eletrodomestico;
 
 public abstract class Eletrodomestico {
@@ -29,10 +31,10 @@ public abstract class Eletrodomestico {
 	
 	public boolean isLigado() {
         return ligado;
-    }
+        }
 	
+	}
 }
-
 
 
 
