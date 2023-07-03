@@ -33,7 +33,7 @@ public abstract class Eletrodomestico {
         }
 	
 	}
-}
+
 
 
 
@@ -130,6 +130,7 @@ public class  Radio extends Eletrodomestico {
 	    //abaixo teríamos todos os métodos construtores (get e set)...
 	    
 	}
+}
 
  package eletrodomestico;
 
